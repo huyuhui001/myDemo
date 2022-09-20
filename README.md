@@ -1,7 +1,6 @@
 # Demo
 
-* Course System (Python)
+Course System
 
-* Build CAP Application on Kyma (Node.js, Kubernetes, SAP CAP)
-
+* Python foundation to build a course management system to understand Python object-oriented concepts.  
 
