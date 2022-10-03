@@ -15,4 +15,22 @@ CourseSystem/db/Teacher/
 CourseSystem/interface/__pycache__/
 CourseSystem/lib/__pycache__/
 CAP_Kyma_Demo/cpapp/
+tutorial.me.myappui5/approuter/node_modules/
+tutorial.me.myappui5/approuter/uimodule/
+tutorial.me.myappui5/mta_archives/
+tutorial.me.myappui5/node_modules/
+tutorial.me.myappui5/.idea/
+tutorial.me.myappui5/.mta/
+tutorial.me.myappui5/*.mtar
+tutorial.me.myappui5/dist/
+package-lock.json
+tutorial.me.myappui5/mta_archives/
+tutorial.me.myappui5/deployer/resources/
+tutorial.me.myappui5/Makefile*
+tutorial.me.myappui5/mta-*
+tutorial.me.myappui5/approuter/*/webapp/
+
+
+
+
 
