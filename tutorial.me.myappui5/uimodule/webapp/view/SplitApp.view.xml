@@ -1,0 +1,73 @@
+<mvc:View controllerName="tutorial.me.myappui5.controller.SplitApp" xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+  xmlns:tnt="sap.tnt">
+    <SplitApp id="splitApp"
+      initialDetail="helloWorld"
+		  initialMaster="expertList">
+      <detailPages>
+        <Page
+          id="helloWorld"
+          title="Welcome"
+          backgroundDesign= "Solid">
+          <Label text="Welcome to hello world. " />
+          <Image src="/uimodule/images/helloworld.jpg"/>
+        </Page>
+        <Page
+          id="Sub1"
+          title="Sub Item 1"
+          backgroundDesign= "Solid"
+          showNavButton="true"
+          navButtonPress=".onPressDetailBack">
+          <core:HTML content='&lt;ul&gt;&lt;li&gt;China R&amp;D Center.&lt;/li&gt;&lt;li&gt;Great Place.&lt;/li&gt;&lt;li&gt;Success story.&lt;/li&gt;&lt;/li&gt;'></core:HTML>
+          <Image src="/uimodule/images/nodejs.png"/>
+        </Page>
+        <Page
+          id="Sub2"
+          title="Sub Item 2"
+          backgroundDesign= "Solid"
+          showNavButton="true"
+          navButtonPress=".onPressDetailBack">
+          <core:HTML content='&lt;ul&gt;&lt;li&gt;Innovation.&lt;/li&gt;&lt;li&gt;Technologies.&lt;/li&gt;&lt;/ul&gt;'></core:HTML>
+          <Image src="/uimodule/images/golang.jpg"/>
+        </Page>
+        <Page
+          id="Sub3"
+          title="Sub Item 3"
+          backgroundDesign= "Solid"
+          showNavButton="true"
+          navButtonPress=".onPressDetailBack">
+          <Text text='Python Language'/>
+          <Image src="/uimodule/images/python.png"/>
+        </Page>
+        <Page
+          id="Sub4"
+          title="Sub Item 4"
+          backgroundDesign= "Solid"
+          showNavButton="true"
+          navButtonPress=".onPressDetailBack">
+          <Text text='QT desktop'/>
+          <Image src="/uimodule/images/qt.png"/>
+        </Page>
+      </detailPages>
+      <masterPages>
+        <Page
+          id="helloworld"
+          title="Welcome to hello world"
+          backgroundDesign= "List">
+          <tnt:NavigationList id="navList" itemSelect=".onListItemSelect">
+            <tnt:NavigationListItem text="Item 1" key="item1" icon="sap-icon://building">
+              <tnt:NavigationListItem text="Sub Item 1" id="navListSubItemSub1" key="Sub1" custom:to="Sub1"/>
+              <tnt:NavigationListItem text="Sub Item 2" id="navListSubItemSub2" key="Sub2" custom:to="Sub2"/>
+            </tnt:NavigationListItem>
+            <tnt:NavigationListItem text="Item 2" key="item2" icon="sap-icon://company-view">
+              <tnt:NavigationListItem text="Sub Item 3" id="navListSubItemSub3" key="Sub3" custom:to="Sub3"/>
+              <tnt:NavigationListItem text="Sub Item 4" id="navListSubItemSub4" key="Sub4" custom:to="Sub4"/>
+            </tnt:NavigationListItem>
+          </tnt:NavigationList>
+        </Page>
+      </masterPages>
+    </SplitApp>
+</mvc:View>
