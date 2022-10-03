@@ -1,10 +1,10 @@
 # Reference of learning materials
 
-[Develop Your First SAPUI5 Web App on Cloud Foundry](https://developers.sap.com/mission.sapui5-cf-first.html)	
-[Deliver Your First SAP Fiori Launchpad Site](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)	
-[Introducing the easy-ui5 generator](https://blogs.sap.com/2019/02/05/introducing-the-easy-ui5-generator/)
-[Easy-UI5 3.0 – From Community Contributions to Community Plugins](https://blogs.sap.com/2021/04/09/easy-ui5-3.0-from-community-contributions-to-community-plugins/)
-[Build an Application End-to-End Using CAP, Node.js and VS Code](https://developers.sap.com/mission.btp-application-cap-e2e.html)
+* [Develop Your First SAPUI5 Web App on Cloud Foundry](https://developers.sap.com/mission.sapui5-cf-first.html)	
+* [Deliver Your First SAP Fiori Launchpad Site](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html)	
+* [Introducing the easy-ui5 generator](https://blogs.sap.com/2019/02/05/introducing-the-easy-ui5-generator/)
+* [Easy-UI5 3.0 – From Community Contributions to Community Plugins](https://blogs.sap.com/2021/04/09/easy-ui5-3.0-from-community-contributions-to-community-plugins/)
+* [Build an Application End-to-End Using CAP, Node.js and VS Code](https://developers.sap.com/mission.btp-application-cap-e2e.html)
 
 # Install CF CLI
 
