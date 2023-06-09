@@ -300,12 +300,26 @@
 4.1.4. 运行以下命令进行编译：
 
 ```bash
-g++ -std=c++11 mgt.cpp -o mgt.exe
+g++ -std=c++11 -fexec-charset=utf-8 mgt.cpp -o mgt.exe
 ```
 
 这将生成一个名为 `mgt.exe` 的可执行文件。
 
-4.1.5. 运行以下命令来执行程序：
+4.1.5. 配置Windows Terminal：
+
+因为代码中有中文输出，所以需要在Windows Terminal中配置UTF-8字符集，来支持中文显示。
+
+两种方式，一种是直接在Windows Terminal上修改配置，一种是修改Windows Terminal的JSON文件。
+
+方法1：修改Windows Terminal的设置
+
+![修改Windows Terminal的设置](PowershellSetting.png)
+
+方法2：修改Windows Terminal的JSON文件
+
+![修改Windows Terminal的JSON文件](PowershellSettingJSON.png)
+
+4.1.6. 运行以下命令来执行程序：
 
 - 在 Windows 上：
 
